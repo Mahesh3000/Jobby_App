@@ -1,0 +1,28 @@
+html,
+body,
+.product-sections {
+  height: 100%;
+  margin: 0;
+  background-color: black;
+}
+.product-sections {
+  display: flex;
+  background-color: black;
+  /* flex-direction: row;
+  justify-content: space-between;
+  margin: auto; */
+}
+
+.container {
+  display: flex;
+}
+
+.left-container {
+  flex: 0 0 30%; /* Flex item with initial size of 30% and no shrinking or growing */
+  background-color: lightblue;
+}
+
+.right-container {
+  flex: 0 0 70%; /* Flex item with initial size of 70% and no shrinking or growing */
+  background-color: lightgreen;
+}

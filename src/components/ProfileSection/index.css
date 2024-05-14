@@ -1,0 +1,48 @@
+.profile-container {
+  padding: 10px;
+  margin-left: 40px;
+  /* max-width: 1110px; */
+}
+
+.profile-container-2 {
+  height: 250px;
+  width: 80%;
+  border-radius: 10px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+}
+
+.profile-image {
+  height: 80px;
+  width: 80px;
+  margin-top: 25px;
+  /* border-radius: 20px; */
+}
+
+.l-text {
+  font-family: 'Roboto';
+  font-size: large;
+  color: white;
+}
+.profile-name {
+  color: #6366f1;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.profile-bio {
+  font-family: 'Roboto';
+}
+
+.check-label {
+  font-size: 20px;
+  color: white;
+}
+
+.checkbox-input {
+  transform: scale(1.2); /* Make the checkbox 20% larger */
+}
